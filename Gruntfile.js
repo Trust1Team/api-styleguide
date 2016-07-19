@@ -13,7 +13,7 @@ module.exports = function (grunt) {
 			},
 			publish: {
 				options: {
-					repo: 'https://github.com/zalando/restful-api-guidelines.git',
+					repo: 'https://github.com/Trust1Team/api-styleguide.git',
 					message: 'publish gh-pages (cli)'
 				},
 				src: ['**/*']
@@ -21,10 +21,10 @@ module.exports = function (grunt) {
 			deploy: {
 				options: {
 					user: {
-						name: 'ZalandoGhPages',
-						email: 'no-reply@zalando.de'
+						name: 'michallis',
+						email: 'no-reply@trust1team.com'
 					},
-					repo: 'https://' + process.env.GH_TOKEN + '@github.com/zalando/restful-api-guidelines.git',
+					repo: 'https://' + process.env.GH_TOKEN + '@github.com/Trust1Team/api-styleguide.git',
 					message: 'publish gh-pages (auto)' + getDeployMessage(),
 					silent: true
 				},

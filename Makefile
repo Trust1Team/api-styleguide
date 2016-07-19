@@ -11,7 +11,7 @@ NODE_MODULES=node_modules
 gitbook=$(NODE_MODULES)/.bin/gitbook
 gh_pages=$(NODE_MODULES)/.bin/gh-pages
 
-url=http://zalando.github.io/restful-api-guidelines
+url=https://github.com/Trust1Team/api-styleguide
 
 all: help
 
