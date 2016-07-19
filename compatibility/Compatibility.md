@@ -72,7 +72,7 @@ negotiation and hence reduces complexity of release management.
 
 Media type versioning: Here, version information and media type are provided
 together via the HTTP Content-Type header — e.g.
-application/x.zalando.cart+json;version=2. For incompatible changes, a new
+application/x.t1t.cart+json;version=2. For incompatible changes, a new
 media type version for the resource is created. To generate the new
 representation version, consumer and producer can do content negotiation using
 the HTTP Content-Type and Accept headers. Note: This versioning only applies to
@@ -80,8 +80,8 @@ the content schema, not to URI or method semantics.
 
 In this example, a client wants only the new version:
 
-    Content-Type: application/x.zalando.cart+json;version=2
-    Accept: application/x.zalando.cart+json;version=2
+    Content-Type: application/x.t1t.cart+json;version=2
+    Accept: application/x.t1t.cart+json;version=2
 
 Using header versioning should:
 

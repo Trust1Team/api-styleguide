@@ -5,7 +5,7 @@
 APIs should support techniques for reducing bandwidth based on client needs. This holds for APIs
 that (might) have high payloads and/or are used in high-traffic scenarios like the public Internet
 and telecommunication networks. Typical examples are APIs used by mobile web app clients with
-(often) less bandwidth connectivity. (Zalando is a 'Mobile First' company, so be mindful of this
+(often) less bandwidth connectivity. ('Mobile First' company, be mindful of this
 point.)
 
 Common techniques include:
@@ -69,13 +69,6 @@ Content-Type: application/x.person+json;fields=(name,partner(name))
   }
 }
 ```
-
-The approach we recommend for field filtering is a Zalando Github project,
-[json-fields](https://github.com/zalando/json-fields). It defines a formal grammar for the ANTLR
- parser generator and provides a ready-to use library for Java / Jackson based projects
- ([Maven link](http://mvnrepository.com/artifact/org.zalando.guild.api/json-fields-jackson)).
-Teams that use other JSON serializers are encouraged to contribute to the open source project and
-create their own parser / framework based on this grammar.
 
 Other approaches we have considered are JSONPath or GraphQL. While they have advantages, neither of
 them can easily be plugged into an existing serialization process, so they require an additional,

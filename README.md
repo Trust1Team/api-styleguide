@@ -1,7 +1,7 @@
 #Developing Restful APIs: A Comprehensive Set of Guidelines for Trust1Team development
 
 [![Build Status](https://travis-ci.org/zalando/restful-api-guidelines.svg?branch=master)](https://travis-ci.org/zalando/restful-api-guidelines)
-Latest published version: **[HTML](http://zalando.github.io/restful-api-guidelines) | [PDF](http://zalando.github.io/restful-api-guidelines/guidelines.pdf)** (only to provide easy way of single-page search)
+Latest published version: **[HTML](https://github.com/Trust1Team/api-styleguide) | [PDF](https://github.com/Trust1Team/api-styleguide/guidelines.pdf)** (only to provide easy way of single-page search)
 
 Purpose
 -------
@@ -14,24 +14,24 @@ Feel free to use these guidelines as a guidance for your own development. Note t
 Table of Contents
 -------
 After a short Introduction, these guidelines include chapters on the following topics:
-- [Design Principles](http://zalando.github.io/restful-api-guidelines/design-principles/DesignPrinciples.html)
-- [General Guidelines](http://zalando.github.io/restful-api-guidelines/general-guidelines/GeneralGuidelines.html)
-- [Security](http://zalando.github.io/restful-api-guidelines/security/Security.html)
-- [Compatibility](http://zalando.github.io/restful-api-guidelines/compatibility/Compatibility.html)
-- [JSON Guidelines](http://zalando.github.io/restful-api-guidelines/json-guidelines/JsonGuidelines.html)
-- [Naming](http://zalando.github.io/restful-api-guidelines/naming/Naming.html)
-- [Resources](http://zalando.github.io/restful-api-guidelines/resources/Resources.html)
-- [HTTP](http://zalando.github.io/restful-api-guidelines/http/Http.html)
-- [Performance](http://zalando.github.io/restful-api-guidelines/performance/Performance.html)
-- [Pagination](http://zalando.github.io/restful-api-guidelines/pagination/Pagination.html)
-- [Hypermedia](http://zalando.github.io/restful-api-guidelines/hyper-media/Hypermedia.html)
-- [Data Formats](http://zalando.github.io/restful-api-guidelines/data-formats/DataFormats.html)
-- [Common Data Objects](http://zalando.github.io/restful-api-guidelines/common-data-objects/CommonDataObjects.html)
-- [Common Headers](http://zalando.github.io/restful-api-guidelines/headers/CommonHeaders.html)
-- [Proprietary Headers](http://zalando.github.io/restful-api-guidelines/headers/ProprietaryHeaders.html)
-- [API Discovery](http://zalando.github.io/restful-api-guidelines/api-discovery/ApiDiscovery.html)
-- [Events](http://zalando.github.io/restful-api-guidelines/events/events.html)
-- [Tooling](http://zalando.github.io/restful-api-guidelines/tooling/Tooling.html)
+- [Design Principles](https://github.com/Trust1Team/api-styleguide/design-principles/DesignPrinciples.html)
+- [General Guidelines](https://github.com/Trust1Team/api-styleguide/general-guidelines/GeneralGuidelines.html)
+- [Security](https://github.com/Trust1Team/api-styleguide/security/Security.html)
+- [Compatibility](https://github.com/Trust1Team/api-styleguide/compatibility/Compatibility.html)
+- [JSON Guidelines](https://github.com/Trust1Team/api-styleguide/json-guidelines/JsonGuidelines.html)
+- [Naming](https://github.com/Trust1Team/api-styleguide/naming/Naming.html)
+- [Resources](https://github.com/Trust1Team/api-styleguide/resources/Resources.html)
+- [HTTP](https://github.com/Trust1Team/api-styleguide/http/Http.html)
+- [Performance](https://github.com/Trust1Team/api-styleguide/performance/Performance.html)
+- [Pagination](https://github.com/Trust1Team/api-styleguide/pagination/Pagination.html)
+- [Hypermedia](https://github.com/Trust1Team/api-styleguide/hyper-media/Hypermedia.html)
+- [Data Formats](https://github.com/Trust1Team/api-styleguide/data-formats/DataFormats.html)
+- [Common Data Objects](https://github.com/Trust1Team/api-styleguide/common-data-objects/CommonDataObjects.html)
+- [Common Headers](https://github.com/Trust1Team/api-styleguide/headers/CommonHeaders.html)
+- [Proprietary Headers](https://github.com/Trust1Team/api-styleguide/headers/ProprietaryHeaders.html)
+- [API Discovery](https://github.com/Trust1Team/api-styleguide/api-discovery/ApiDiscovery.html)
+- [Events](https://github.com/Trust1Team/api-styleguide/events/events.html)
+- [Tooling](https://github.com/Trust1Team/api-styleguide/tooling/Tooling.html)
 
 License
 -------

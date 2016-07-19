@@ -1,6 +1,6 @@
 # JSON Guidelines
 
-These guidelines provides recommendations for defining JSON data at Zalando. JSON here refers to [RFC 7159](http://www.rfc-editor.org/rfc/rfc7159.txt) (which updates [RFC 4627](https://www.ietf.org/rfc/rfc4627.txt)), the “application/json” media type and custom JSON media types defined for APIs. The guidelines clarifies some specific cases to allow Zalando JSON data to have an idiomatic form across teams and services. 
+These guidelines provides recommendations for defining JSON data at Trust1Team. JSON here refers to [RFC 7159](http://www.rfc-editor.org/rfc/rfc7159.txt) (which updates [RFC 4627](https://www.ietf.org/rfc/rfc4627.txt)), the “application/json” media type and custom JSON media types defined for APIs. The guidelines clarifies some specific cases to allow Trust1Team JSON data to have an idiomatic form across teams and services. 
 
 ## Property Naming
 
@@ -62,7 +62,7 @@ Schema based JSON properties that are by design durations and intervals could be
 
 - [ISO 3166-1-alpha2 country 
 ](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
- - (It's "GB", not "UK", even though "UK" has seen some use at Zalando)
+ - (It's "GB", not "UK", even though "UK" has seen some use)
 - [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
  - [BCP-47](https://tools.ietf.org/html/bcp47) (based on ISO 639-1) for language variants
 - [ISO 4217 currency codes](http://en.wikipedia.org/wiki/ISO_4217)

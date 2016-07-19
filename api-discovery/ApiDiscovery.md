@@ -22,7 +22,3 @@ For the time being, this document is an appropriate place to mention this rule, 
 not a RESTful API definition rule or related to our STUPS infrastructure for application service
 management.
 
-
-Further reading:
-
-* [Library to make your Spring Boot service crawlable via Twintip](https://github.com/zalando-stups/twintip-spring-web)

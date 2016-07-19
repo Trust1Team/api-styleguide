@@ -1,8 +1,8 @@
 # Events
 
-Zalando’s architecture centers around decoupled microservices and in that context we favour asynchronous event driven approaches. The [Nakadi](https://github.com/zalando/nakadi) framework provides an event publish and subscribe system, abstracting exchanges through a RESTful API. 
+Trust1Team’s architecture centers around decoupled microservices and in that context we favour asynchronous event driven approaches. The TBD framework provides an event publish and subscribe system, abstracting exchanges through a RESTful API. 
 
-Nakadi is a key element for data integration in the architecture, and the standard system for inter-service event messaging. The guidelines in this section are for use with the Nakadi framework and focus on how to design and publish events intended to be shared for others to consume. Critically, once events pass service boundaries they are considered part of the service API and are subject to the API guidelines. 
+TBD is a key element for data integration in the architecture, and the standard system for inter-service event messaging. The guidelines in this section are for use with the Nakadi framework and focus on how to design and publish events intended to be shared for others to consume. Critically, once events pass service boundaries they are considered part of the service API and are subject to the API guidelines. 
 
 ## {{ book.must }} Treat Events as part of the service interface
 
@@ -18,13 +18,13 @@ Events are part of a service’s interface to the outside world equivalent in st
 
 Nakadi defines a structure called an _EventType_, which describes details for a particular kind of event. The EventType declares standard information, such as a name, an owning application (and by implication, an owning team), a well known event category (business process or data change), and a schema defining the event payload. It also allows the declaration of validation and enrichment strategies for events, along with supplemental information such as how events are partitioned in the stream. 
 
-An EventType is registered with Nakadi via its _Schema Registry API_. Once the EventType is created, individual events that conform to the type and its payload schema can be published, and consumers can access them as stream of Events. [Nakadi's Open API definitions](https://github.com/zalando/nakadi/blob/nakadi-jvm/api/nakadi-event-bus-api.yaml) include the definitions for two main categories, business events (BusinessEvent), and data change events (DataChangeEvent), as well as a generic 'undefined' type. 
+An EventType is registered with Nakadi via its _Schema Registry API_. Once the EventType is created, individual events that conform to the type and its payload schema can be published, and consumers can access them as stream of Events. TBD include the definitions for two main categories, business events (BusinessEvent), and data change events (DataChangeEvent), as well as a generic 'undefined' type. 
 
 The service specific data defined for an event is called the _payload_. Only this non-Nakadi defined part of the event is expected to be submitted with the EventType schema.  When defining an EventType's payload schema as part of your API and for review purposes, it's ok to declare the payload as an object definition using Open API, but please note that Nakadi currently expects the EventType's schema to be submitted as JSON Schema and not as Open API JSON or YAML. Further details on how to register EventTypes are available in the Nakadi project's documentation.
 
 ## {{ book.must }} Use the Business Events to signal steps and arrival points in business processes
 
-Nakadi defines a specific event type for business processes, called [BusinessEvent](https://github.com/zalando/nakadi/blob/nakadi-jvm/api/nakadi-event-bus-api.yaml#/definitions/BusinessEvent). When publishing events that represent steps in a business process, event types must be based on the BusinessEvent type.
+TBD defines a specific event type for business processes, called business events. When publishing events that represent steps in a business process, event types must be based on the BusinessEvent type.
 
 All your events of a single business process will conform to the following rules:
 
@@ -42,7 +42,7 @@ At the moment we cannot state whether it's best practice to publish all the even
 
 ## {{ book.must }} Use the Data Change Event structure to signal mutations
 
-Nakadi defines an event for signalling data changes, called a [DataChangeEvent](https://github.com/zalando/nakadi/blob/nakadi-jvm/api/nakadi-event-bus-api.yaml#/definitions/DataChangeEvent). When publishing events that represents created, updated, or deleted data, change event types must be based on the DataChangeEvent category.
+TBD defines an event for signalling data changes, called a Data Event. When publishing events that represents created, updated, or deleted data, change event types must be based on the DataChangeEvent category.
 
 - Change events must identify the changed entity to allow aggregation of all related events for the entity.
 

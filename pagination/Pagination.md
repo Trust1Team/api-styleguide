@@ -65,16 +65,16 @@ For example:
 
 ```http
 HTTP/1.1 200 OK
-Content-Type: application/x.zalando.products+json
+Content-Type: application/x.t1t.products+json
 X-Total-Count: 1309
 
 {
   "_links": {
     "next": {
-      "href": "http://catalog-service.zalando.net/products?offset=15&limit=5"
+      "href": "http://catalog-service.t1t.net/products?offset=15&limit=5"
     },
     "prev": {
-      "href": "http://catalog-service.zalando.net/products?offset=5&limit=5"
+      "href": "http://catalog-service.t1t.net/products?offset=5&limit=5"
     }
   },
   "products": [

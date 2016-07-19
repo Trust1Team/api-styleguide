@@ -23,7 +23,7 @@ Our major concerns regarding the promised advantages of HATEOAS (see also [RESTi
 - Hypermedia make sense for humans, less for SOA machine clients. We would expect use cases where it may provide value more likely in the frontend and human facing service domain.
 - Hypermedia does not prevent API clients to implement shortcuts and directly target resources without 'discovering' them
 
-However, we do not forbid HATEOAS; you could use it, if you checked its limitations and still see clear value for your usage scenario that justifies its additional complexity. If you use HATEOAS please share experience and present your findings in the [API Guild \[internal link\]](https://techwiki.zalando.net/display/GUL/API+Guild).
+However, we do not forbid HATEOAS; you could use it, if you checked its limitations and still see clear value for your usage scenario that justifies its additional complexity. If you use HATEOAS please share experience and present your findings.
 
 ## {{ book.must }} Use a well-defined subset of HAL
 

@@ -26,7 +26,7 @@ Use the following standard formats for country, language and currency codes:
 
 * [ISO 3166-1-alpha2 country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
 
-     * (It is “GB”, not “UK”, even though “UK” has seen some use at Zalando)
+     * (It is “GB”, not “UK”, even though “UK” has seen more use)
 
 * [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
@@ -36,7 +36,7 @@ Use the following standard formats for country, language and currency codes:
 
 ## {{ book.could }} Use Application-Specific Content Types
 
-For instance, `application/x.zalando.article+json`. For complex types, it’s better to have a
+For instance, `application/x.t1t.article+json`. For complex types, it’s better to have a
 specific content type. For simple use cases this isn’t necessary. We can attach version info to
 media type names and support content negotiation to get different representations, e.g.
-`application/x.zalando.article+json;version=2`.
+`application/x.t1t.article+json;version=2`.
